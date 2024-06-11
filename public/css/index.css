@@ -1,104 +1,164 @@
 .task1 {
+	background-color: green;
 }
 
 .task2 {
+	background-image: url('/img/img-400x200.jpg'); /*  властивість background-image встановлює фонове зображення з вказаного шляху.*/
+	background-size: cover; /*  це властивість задає, що зображення має покривати весь блок. Можна змінити на contain, якщо потрібно інше відображення.*/
+	background-repeat: no-repeat; /*  запобігає повторенню зображення*/
+	background-position: center;  /* центроване зображення */
 }
 
 .task3 {
+	background: linear-gradient(to right, yellow, red); /* властивість background встановлює лінійний градієнт, який починається з жовтого кольору і змінюється до червоного, зліва направо. */
 }
 
 .task4 {
+	background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c); /* встановлює радіальний градієнт */
 }
 
+
 .task5 {
+	 background: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5); /* встановлює конічний градієнт, який починається з кольору #e66465 і змінюється до #9198e5, починаючи від кута 3.1416rad і розміщується на 10% по горизонталі та 50% по вертикалі. */
 }
 
 .task6 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/img-400x200.jpg'); /* повторювати фонове зображення тільки по горизонталі. */
+  background-repeat: repeat-x;
 }
 
 .task7 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-y; /* Повторення тільки по вертикалі */
 }
 
 .task8 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
 }
 
 .task9 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat; /* Повторення фонового зображення */
+  background-size: contain; /* Пропорційне збільшення, якщо зображення не вміщається */
 }
 
 .task10 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat; /* Повторення фонового зображення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
 }
 
 .task11 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-attachment: fixed; /* Прокручування разом зі сторінкою */
 }
 
 .task12 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-attachment: fixed; /* Нерухоме зображення при прокручуванні */
 }
 
 .task13 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-attachment: scroll; /* Прокручування разом з контентом */
 }
 
 .task14 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-position: center; /* Зображення по центру */
 }
 
 .task15 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-position: top; /* Зображення зверху */
 }
 
 .task16 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-position: bottom; /* Зображення знизу */
 }
 
 .task17 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-position: left; /* Зображення зліва */
 }
 
 .task18 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-position: right; /* Зображення справа */
 }
+
 
 .task19 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Пропорційне змінення розміру з заповненням елементу */
+  background-position: 100px; /* Зображення від початку контейнеру на 100px */
 }
 
 .task20 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: auto; /* Автоматичний розмір зображення */
 }
 
 .task21 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: 600px; /* Розмір зображення 600px */
 }
 
 .task22 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: 50%; /* Розмір зображення 50% від контейнера */
 }
 
 .task23 {
   background-image: url('/img/img-400x200.jpg');
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: contain; /* Розмір зображення вміщається в контейнер зі збереженням співвідношення */
 }
 
 .task24 {
   background-image: url('/img/img-400x200.jpg');
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Розтягнути фонове зображення на всю площу */
 }
 
 .task25 {
   border: 20px dashed black;
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Розтягнути фонове зображення на всю площу */
+  background-clip: padding-box; /* Відображати фон в межах рамки */
 }
 
 .task26 {
   background-image: url('/img/img-400x200.jpg');
   border: 20px dashed black;
   box-sizing: border-box;
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Розтягнути фонове зображення на всю площу */
+  background-clip: content-box; /* Відображати фон в межах полів */
 }
 
 .task27 {
@@ -106,6 +166,11 @@
   font-size: 120px;
   font-weight: 900;
   color: transparent;
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Розтягнути фонове зображення на всю площу */
+  -webkit-background-clip: text; /* Відображати фон в межах контенту тексту */
+  background-clip: text; /* Додатково використовуємо стандартну властивість */
+  color: transparent; /* Робимо текст прозорим */
 }
 
 .task28 {
@@ -113,6 +178,9 @@
   box-sizing: border-box;
   border: 20px dashed black;
   background-repeat: no-repeat;
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Розтягнути фонове зображення на всю площу */
+  background-clip: padding-box; /* Відображати фон в межах обмеженого зовнішнього поля */
 }
 
 .task29 {
@@ -121,6 +189,9 @@
   border: 20px dashed black;
   padding: 20px;
   background-repeat: no-repeat;
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Розтягнути фонове зображення на всю площу */
+  background-clip: content-box; /* Відображати фон в межах обмеженого внутрішнього поля */
 }
 
 .task30 {
@@ -131,18 +202,23 @@
   font-size: 100px;
   font-weight: 900;
   padding: 60px;
+	background-repeat: no-repeat; /* Вимкнути повторення */
+  background-size: cover; /* Розтягнути фонове зображення на всю площу */
+  background-origin: content-box; /* Початок фону з контенту */
 }
 
 .task31 {
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+	border-image-source: linear-gradient(to right, blue, green); /* Лінійний градієнт від синього до зеленого */
 }
 
 .task32 {
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+	border-image-source: radial-gradient(circle at center, rgba(255,0,0,0.5) 5%, rgba(0,255,0,0.5) 15%, rgba(0,0,255,0.5) 60%);
 }
 
 .task33 {
@@ -150,4 +226,5 @@
   box-sizing: border-box;
   border-image-width: 40px;
   border-image-slice: 10;
+	border-image-repeat: stretch; /* Розтягнути зображення рамки на всю довжину границі */
 }
